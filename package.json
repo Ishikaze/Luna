@@ -1,0 +1,18 @@
+{
+  "name": "luna-1",
+  "version": "1.0.0",
+  "description": "Luna is a Discord bot??",
+  "main": "src/luna.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "nlpcloud": "^2.0.5"
+  }
+}

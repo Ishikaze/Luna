@@ -29,14 +29,16 @@ client.on("messageCreate", (msg) => {
     //console.log('bot')
     return;
   }
-  if (
-    msg.author.username !== "ishikaze" &&
-    msg.author.username !== ".pikamee" &&
-    msg.author.username !== "thecuddleslut"
-  ) {
-    msg.react("❌");
-    return;
-  }
+  // if (
+  //   msg.author.username !== "ishikaze" &&
+  //   msg.author.username !== ".pikamee" &&
+  //   msg.author.username !== "thecuddleslut"
+  // ) {
+  //   if (msg.content.toLowerCase().includes("luna") === true) {
+  //     msg.react("❌");
+  //   }
+  //   return;
+  // }
   if (msg.content.toLowerCase().includes("luna") === false) {
     //console.log('ignored')
     return;
